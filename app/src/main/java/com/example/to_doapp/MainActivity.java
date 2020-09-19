@@ -34,14 +34,12 @@ public class MainActivity extends AppCompatActivity {
         rvItems = findViewById(R.id.rvItems);
         editItem = findViewById(R.id.editItem);
 
-
-
        // editItem.setText("I'm doing this from Android Studio!");
 
         items = new ArrayList<>();
-//        items.add("Buy Milk");
-//        items.add("Call Gran Gran!");
-//        items.add("Pause, Appreciate life!");
+        items.add("Buy Milk");
+        items.add("Call Gran Gran!");
+        items.add("Pause, Appreciate life!");
 
         ItemAdapter.OnLongClickListener onLongClickListener =  new ItemAdapter.OnLongClickListener (){
             @Override
@@ -51,7 +49,6 @@ public class MainActivity extends AppCompatActivity {
                 //Notify the adapter of the deleted position
                 itemsAdapter.notifyItemRemoved(position);
                 Toast.makeText(getApplicationContext(), "Task has been removed!", Toast.LENGTH_SHORT).show();
-
             }
         };
         final ItemAdapter itemsAdapter = new ItemAdapter(items, onLongClickListener);

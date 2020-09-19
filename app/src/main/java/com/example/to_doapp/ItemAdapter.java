@@ -67,7 +67,8 @@ public class ItemAdapter extends  RecyclerView.Adapter<ItemAdapter.ViewHolder> {
     //Container to provide easy access to views that represent each row in the list
     class ViewHolder extends RecyclerView.ViewHolder{
         TextView tvItem;
-        OnLongClickListener longClickListener;
+        //OnLongClickListener longClickListener;
+
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -80,7 +81,7 @@ public class ItemAdapter extends  RecyclerView.Adapter<ItemAdapter.ViewHolder> {
             tvItem.setOnLongClickListener(new View.OnLongClickListener() {
                 @Override
                 public boolean onLongClick(View v) {
-                    /* Notify the user about the position that was long pressed */
+                    //Notify the user about the position that was long pressed
                     longClickListener.onItemLongClicked(getAdapterPosition());
                     return true;
                 }
