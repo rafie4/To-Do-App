@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">To-Do App</string>
+    <string name="daily_buddy">string</string>
+    <string name="my_to_do_agenda">My To-Do Agenda!</string>
+    <string name="add_task">Add Task</string>
+</resources>
