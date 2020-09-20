@@ -20,8 +20,5 @@ The following **required** functionality is completed:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-
-<img src='https://giphy.com/gifs/Ygp9acuIcrE9zRZUCF' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-<iframe src="https://giphy.com/embed/Ygp9acuIcrE9zRZUCF" width="229" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/Ygp9acuIcrE9zRZUCF">via GIPHY</a></p>
-
+Demo: https://giphy.com/gifs/Ygp9acuIcrE9zRZUC
 GIF created with [Giphy](https://giphy.com/gifs/Ygp9acuIcrE9zRZUCF).
