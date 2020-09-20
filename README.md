@@ -22,3 +22,4 @@ The following **required** functionality is completed:
 Here's a walkthrough of implemented user stories:
 Demo:
 <iframe src="https://giphy.com/embed/Ygp9acuIcrE9zRZUCF"</iframe>
+<img src='https://giphy.com/embed/Ygp9acuIcrE9zRZUCF' title='Video Walkthrough' width='' alt='Video Walkthrough' />
